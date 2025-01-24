@@ -47,25 +47,6 @@ VITE_SERVER_BASE_URL=http://localhost:5000
 
 Make sure to replace http://localhost:5000 with the appropriate URL for your backend server if it's different.
 
-## Folder Structure
-
-Here's a quick overview of the project's folder structure:
-
-fe
-│
-├── public/              # Static files like index.html
-├── src/                 # All source code files
-│   ├── components/      # React components
-│   ├── services/        # API service logic (businessService.js)
-│   ├── App.js           # Main App component
-│   ├── index.js         # React entry point
-│   ├── App.css          # Global styles
-│   └── tailwind.config.js
-│
-├── .env                 # Environment variables
-├── package.json         # Project metadata and dependencies
-└── README.md            # Project documentation
-
 ## Contact Details
 
 Users are required to provide a phone number and email before downloading the QR code. This ensures that the business can be contacted if needed.

@@ -38,26 +38,6 @@ GOOGLE_API_KEY=your_google_api_key_here
 
 Replace your_google_api_key_here with your actual Google Places API key.
 
-## Folder Structure
-
-Here's a quick overview of the project's folder structure:
-
-be
-├── src
-│   ├── controllers
-│   │   └── autocompleteController.js
-│   ├── middleware
-│   │   └── corsConfig.js
-│   ├── routes
-│   │   └── autocompleteRoutes.js
-│   ├── server.js
-│   └── dtos
-│       └── baseDTO.js
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-
 ## Usage
 
 ### Start the server
