@@ -21,7 +21,7 @@ This project is a sample full-stack application that allows users to generate cu
 - Supports CORS for seamless integration with the frontend.
 
 ## Usage
-Please go through each folder at take a look at the descriptions and instructions of each side.
+Please go through each folder and take a look at the descriptions and instructions to know how to run at the local side.
 
 ## Dependencies
 
