@@ -38,7 +38,7 @@ Backend
 
 ## Live Demo
 
-Take a look at this website: https://maploving-qrcode-generator-5rfz-hpcu6r8va.vercel.app/
+Take a look at this website: https://maploving-qrcode-generator-tommy.vercel.app/
 
 ## Notes and Thoughts
 
