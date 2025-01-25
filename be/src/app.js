@@ -10,6 +10,9 @@ app.use(cors(corsOptions));
 app.options("", cors(corsConfig));
 
 // Routes
+app.get("/", (req, res) => {
+    res.send("Server is running!");
+});
 app.use("/api", autocompleteRoutes);
 
 module.exports = app;
