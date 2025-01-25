@@ -1,5 +1,5 @@
 const express = require("express");
-const { getAutocomplete } = require("../controllers/autocompleteController");
+const { getAutocomplete } = require("../controllers/autoCompleteController");
 
 const router = express.Router();
 
