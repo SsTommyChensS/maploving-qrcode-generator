@@ -71,13 +71,16 @@ const App = () => {
         <input
           type="text"
           className="border border-gray-300 rounded-lg p-3 w-full mb-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-          placeholder="Search for your business name or address"
+          placeholder="Search for your business name"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button
           onClick={fetchBusinesses}
-          className="w-full bg-blue-600 text-white font-medium py-2 rounded-lg hover:bg-blue-700 transition"
+          className={`w-full bg-blue-600 text-white font-medium py-2 rounded-lg hover:bg-blue-700 transition ${
+            !searchTerm ? "cursor-not-allowed opacity-50" : ""
+          }`}
+          disabled={!searchTerm}
         >
           Search
         </button>
@@ -118,6 +121,7 @@ const App = () => {
           onChange={(e) =>
             setQrCodeData({ ...qrCodeData, businessName: e.target.value })
           }
+          disabled={!selectedBusiness}
         />
         <textarea
           className="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-blue-500 focus:outline-none"
@@ -126,6 +130,7 @@ const App = () => {
           onChange={(e) =>
             setQrCodeData({ ...qrCodeData, reviewText: e.target.value })
           }
+          disabled={!selectedBusiness}
         />
 
         {/* QR Code Preview */}
