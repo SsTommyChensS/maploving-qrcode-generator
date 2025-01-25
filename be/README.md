@@ -42,8 +42,9 @@ Replace your_google_api_key_here with your actual Google Places API key.
 
 ### Start the server
 
-To start the backend server: npm run dev
-The server will start at http://localhost:5000.
+To start the backend server: 
+- npm start
+The server will start at http://localhost:{PORT}.
 
 ### API Endpoint
 
