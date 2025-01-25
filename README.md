@@ -35,3 +35,7 @@ Backend
 - Express: Web framework for Node.js.
 - Axios: Promise-based HTTP client.
 - CORS: Middleware for cross-origin resource sharing.
+
+## Live Demo
+
+Take a look at this website: https://maploving-qrcode-generator-5rfz-hpcu6r8va.vercel.app/
