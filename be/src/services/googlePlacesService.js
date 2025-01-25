@@ -7,7 +7,7 @@ const fetchAutocompleteData = async (input) => {
       {
         params: {
           input,
-          key: "AIzaSyD8gbLiIryboeY_CoonrggrUv4LHEWtgfI",
+          key: process.env.GOOGLE_PLACES_API_KEY,
           types: "establishment",
         },
       }
