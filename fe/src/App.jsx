@@ -162,7 +162,7 @@ const App = () => {
         </div>
 
         {/* Template Selector */}
-        <div className="flex space-x-3">
+        <div className="flex flex-wrap space-x-3 gap-3">
           {[1, 2, 3, 4, 5].map((template) => (
             <button
               key={template}
