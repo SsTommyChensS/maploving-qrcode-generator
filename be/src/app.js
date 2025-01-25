@@ -7,6 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors(corsOptions));
+app.options("", cors(corsConfig));
 
 // Routes
 app.use("/api", autocompleteRoutes);
