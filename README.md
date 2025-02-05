@@ -64,4 +64,4 @@ This project marks my first experience working with Google APIs, specifically th
 
 ## Summary 
 
-While this project presented several challenges, it was an invaluable learning experience. I am excited to explore more advanced features of Google APIs and bring additional value to similar projects in the future.
+While this project presented several challenges, it was an invaluable learning experience. I am excited to explore more advanced features of Google APIs and bring additional value to similar projects in the future
